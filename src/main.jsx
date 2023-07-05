@@ -16,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
      <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/App" component={App} />
       <Route path="/Login" component={Login} />
       <Route path="/Principal" component={Principal} />
       <Route path="/Registro" component={Registro} />
