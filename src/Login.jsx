@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext, createContext  } from "react";
 import "./login.css";
-import Navbar from '../home/Navbar';
+import Navbar from './components/home/Navbar';
 import imagenlogin from './imagenlogin.jpg';
 
 
@@ -60,7 +60,7 @@ const Login = () => {
     
     
     let validCredentials1 = false;
-    let num1 = 0;
+    
     for (let i = 0; i < emails.length; i++) {
       
       if (email === emails[i] && password === clave[i]) {
