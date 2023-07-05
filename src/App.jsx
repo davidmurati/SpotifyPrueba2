@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from "./components/home/Home";
-import Login from "./components/login/Login";
+import Login from "./Login";
 import Principal from "./components/principal/Principal";
 import Registro from "./components/Registro/Registro";
 import Modificar from "./components/modificar/modificar";
